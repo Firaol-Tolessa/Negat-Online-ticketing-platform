@@ -1,0 +1,107 @@
+body{
+	background: #c2334a;
+	padding: 0px;
+	margin: 0px;
+	background-image:url("../image/foot1.jpg");
+	background-size:cover;
+	background-attachment : fixed;
+	}
+header{
+	background:green;
+	height: 80px;
+	position : fixed;
+	width : 100%;
+	
+}
+a{
+color: white;
+text-decoration: none;
+}
+.right-Nav{
+	float:right;
+	}
+.right-Nav li{
+	display:inline-block;
+	margin: 10px;
+}
+.new{	
+	position: absolute;
+	z-index:-1;
+	left: -1%;
+	padding:50px;
+	margin-left: 100px;
+	background : url('../image/foot2.jpg');
+	background-size : cover;
+	width:600px;
+	height:700px;
+	text-align:center;
+}
+
+.me{ position:relative;
+	background-color:#a2fea2;
+	width:600px;
+	height:200px;
+	text-align:center;
+	color:purple;
+	}
+	
+	.ee{ position:relative;
+	background-color:#000000;
+	width:600px;
+	height:200px;
+	text-align:center;
+	color:green;}
+	
+	.the{ position:relative;
+	background-color:#333333;
+	width:600px;
+	height:200px;
+	text-align:center;
+	color:gray;}
+table{
+
+position: absolute;
+z-index:-1;
+left : 10%;
+font-size:30px;
+color:white	;
+background : url('../image/foot3.png');
+padding:40px;
+margin-left:800px;
+margin-top: 10px;
+
+font-weight: bold;
+}
+
+table td{
+border:1px solid black;
+}
+.row{
+	background-color: #ffffff;
+	font-size: 40px;
+	color:purple;
+}
+ul li{
+list-style-type: none;
+}
+
+.Left-Nav{
+	float:left;
+	
+}
+
+.left-Nav li{
+	display:inline-block;
+	margin: 10px;
+	text-align:right;
+}
+footer{position :fixed;
+bottom:0%;
+ padding:10px;
+	  color: white;
+	  text-align:right;
+	  margin-top: 850px;
+	  clear: both;
+	  background: #ac123b;
+	  height: 80px;
+	  }

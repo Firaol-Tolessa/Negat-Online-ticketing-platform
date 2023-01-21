@@ -1,0 +1,23 @@
+@font-face {
+    font-family: font1;
+    src: url("../fonts/font1.otf") format("opentype");
+  }
+  
+footer{
+    font-family: font1;
+    width: 100%;
+    height: auto;
+    background: #272424;
+  }
+
+  footer #contactUs{
+    position: relative;
+    width: 40%;
+    text-align: center;
+    float: left;
+  }
+  footer #infoUs{
+    position: relative;
+    width: 40%;
+    float: right;
+  }

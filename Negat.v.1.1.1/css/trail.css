@@ -1,0 +1,90 @@
+#window{
+    height: 100vh;
+    background: url("../image/img1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#window #text{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-size: 25px;
+    line-height: 20px;
+    color: lavenderblush;
+
+}
+
+#window #text h1{
+    color: aquamarine;
+    font-size: 80px;
+    font-stretch: ultra-expanded;
+}
+
+#container{
+    margin:-15px 150px 0px 150px;
+    background: url('../image/background/bg2.jpg');
+    background-size: cover;
+    background-size: cover;
+    background-color: black;
+    height: auto;
+    color : white;
+}
+#container #block_1 {
+    position:relative;
+    top :0;
+    float: left;
+    background: url('../image/background/bg1.jpg');
+    height : 25vmax;
+    padding : 20px;
+    color : white;
+    width : 400px;
+    height : auto;
+}
+
+#container .blocks{
+    width : inherit;
+    height : auto;
+    margin : 10px;
+    background: #120b30b5;
+    overflow : hidden;
+    font-size: 14;
+    letter-spacing: 3px;
+  }
+#container #block_1 img{
+    width: 100px;
+    height: 150px;
+}
+  #container #block_2{
+    float: right;
+    background: url("../image/promo/promo1.jpg");
+    background-size: cover;
+    height : auto;
+    width : 850px;
+    color : white;
+    background-size : cover;
+  }
+
+  #container #block_2 img{
+    display: inline;
+    height: 300px;
+
+  }
+#footer{
+    position: fixed;
+    bottom: 0;
+    backface-visibility: visible;
+}
+
+footer #info{
+    background-color: black;
+    width : 40%;
+    color: white  ;
+    margin-right: 10px;;
+    border-right: 3px solid gray;
+}
+footer #footNav{
+    width: 40%;
+    height: auto;   
+    background: rgb(32, 211, 127);
+}
